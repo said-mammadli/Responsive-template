@@ -1,0 +1,298 @@
+/*GENERAL*/
+
+h3{
+font-size: 18px;
+font-weight: 400;
+}
+
+/*HEADER SECTION*/
+
+.navbar{
+	border-bottom: #0066ff 1.5px solid;
+}
+.navbar .navbar-brand{
+	color:#0066ff ;
+	font-size: 24px;
+}
+.bg-dark{
+	background-color:rgba(0,0,0,1) !important;
+}
+.nav-link{
+	color:white !important;
+	text-transform: uppercase;
+}
+.nav-link:hover{
+	color:#0666ff !important;
+	transition: 0.5s;
+}
+#headerSection{
+	background-image: url("../images/head.jpg");
+	background-size: cover;
+	height: 100vh;
+}
+
+#headerSection .row{
+	height: 100vh;
+}
+.overlay{
+	background-color: rgba(0,0,0, .7);
+}
+.btn-outline-primary{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+#headerSection p{
+	color:white;
+	opacity: 0.4;
+}
+
+/*FEATURES SECTION*/
+
+.fab,.fas{
+	font-size: 40px;
+}
+.feature-top:hover{
+	color:#0066ff;
+	transition: 1s;
+	cursor: pointer;
+}
+
+ p{
+	font-size: 14px ;
+}
+
+
+/*HISTORY SECTION*/
+#ourHistory h2{
+	border-left: 6px solid #0066ff;
+	padding-left: 30px;
+}
+#ourHistory.col-md-6{
+	display: inline;
+}
+#ourHistory .btn-outline-primary{
+	position: absolute;
+	bottom:0px;
+}
+#ourHistory p{
+	line-height: 24px;
+}
+
+
+/*TEAM SECTION*/
+#team .card{
+	opacity: 0.5;
+	border:none;
+	cursor: pointer;
+	transition:  all 0.5s ease;
+}
+#team .card:hover{
+	opacity: 1;
+
+}
+#team .fab{
+	font-size: 24px;
+}
+
+/*WHAT WE DO SECTION*/
+
+#WhatWeDo{
+	background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),
+	url("../images/code.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+#WhatWeDo h2{
+	color:#0066ff;
+}
+/*CASE STUDY SECTION*/
+
+#caseStudy{
+	line-height: 28px;
+	background-color: #edf0f5;
+}
+.Area{
+	
+	position: relative;
+	margin-right: -40px;
+	margin-top: 40px;
+	min-height: 420px;
+	padding: 40px;
+	z-index: 100;
+	background-color: #fff;
+}
+#caseStudy h3{
+	margin-top: 40px;
+	color:#0066ff;
+	font-size:18px;
+	margin-bottom: 40px;
+
+}
+#caseStudy p{
+	font-size: 15px;
+
+}
+#caseStudy .fas{
+	font-size: 40px;
+	color:#0066ff;
+}
+.caseImg{
+	margin-left: -40px;
+
+}
+.caseImg img{
+	height:550px;
+	width: 85%;
+}
+/*PORTFOLIO SECTION*/
+
+.imageContainer{
+	max-width: 450px;
+	position: relative;
+	cursor: pointer;
+	margin: auto;
+}
+
+#portfolio h4{
+	font-size: 16px;
+	font-weight: 300;
+}
+#portofoli p{
+	font-size: 14px;
+	font-weight: 300;
+}
+#portfolio .fa{
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+.imageOverlay{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #1886c7;
+	opacity: 0;
+	transition: 1s ease;
+}
+.imageOverlay:hover{
+	opacity: 0.7;
+}
+.imageText{
+	position: absolute;
+	left: 40%;
+	top: 50%;
+	color:white;
+}
+
+/*TESTIMONIALS*/
+
+#testimonials{
+	background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+	url('../images/slider1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	position: relative;
+
+}
+.fa-quote-left{
+	color: #0066ff;
+	margin-bottom: 30px;
+	opacity: 0.6;
+
+}
+.carousel-item img{
+	opacity: .1;
+}
+.blockquote-footer{
+	color:#0066ff;
+}
+.blockquote p{
+	font-size: 20px;
+}
+
+/*Contact*/
+.us{
+	color: #0066ff;
+}
+#contact{
+	background-color: #f4f5f9;
+}
+#contact .input-group-text{
+	width: 50px;
+	color:#fff;
+	background-color:#0066ff;
+	border-radius: 0px; 
+}
+.btn{
+	border-radius: 0px;
+}
+ /*FOOTER SECTION*/
+
+#footer{
+	background-color: black;
+}
+.last{
+	color:white;
+};
+
+/*MEDIA QUERIES*/
+
+@media (min-width: 576px) {
+		#headerSection .display-3{
+		font-size: 30px;
+	}
+	#ourHistory p{
+		line-height: 20px;
+
+}	#ourHistory .btn{
+		position: relative;
+	
+}		
+	.caseImg {
+		margin-left: 0px;
+		text-align: center;
+	}
+	.caseAre{
+		margin-right: 0px;
+	}
+}
+
+@media (min-width: 768px) { 
+	#headerSection .display-3{
+		font-size: 32px; 
+}
+
+	#ourHistory p{
+		line-height: 20px;
+}
+
+@media (min-width: 992px) { 
+	#headerSection .display-3{
+		font-size: 48px;
+}	
+	#ourHistory p{
+		line-height: 20px;
+}
+
+@media (min-width: 1200px) { 
+
+#headerSection .display-3{
+		font-size: 48px;
+}	
+	
+#ourHistory .btn{
+	position: relative;
+}
+
+	
+}	
+	
+	
