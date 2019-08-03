@@ -248,11 +248,12 @@ font-weight: 400;
 @media (min-width: 576px) {
 		#headerSection .display-3{
 		font-size: 30px;
-	}
+}	
 	#ourHistory p{
 		line-height: 20px;
 
-}	#ourHistory .btn{
+}	
+#ourHistory .btn{
 		position: relative;
 	
 }		
@@ -267,11 +268,12 @@ font-weight: 400;
 
 @media (min-width: 768px) { 
 	#headerSection .display-3{
-		font-size: 32px; 
-}
+		font-size: 48px;
+}	
 
 	#ourHistory p{
 		line-height: 20px;
+}
 }
 
 @media (min-width: 992px) { 
@@ -280,6 +282,10 @@ font-weight: 400;
 }	
 	#ourHistory p{
 		line-height: 20px;
+}
+#ourHistory .btn{
+	position: relative;
+	top:10px;
 }
 
 @media (min-width: 1200px) { 
